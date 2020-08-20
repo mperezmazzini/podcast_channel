@@ -73,6 +73,7 @@ main .hello .pmobile {
 main .hello .pdesktop {
   display: none; }
 main .hello .conocemas {
+  display: block;
   background-color: #00F3BB;
   padding: 1em;
   border: none;
@@ -80,8 +81,7 @@ main .hello .conocemas {
   font-weight: 500;
   font-size: 5vw;
   color: #060A24;
-  text-align: center;
-  display: block; }
+  text-align: center; }
   main .hello .conocemas:hover {
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%); }
   main .hello .conocemas a:link, main .hello .conocemas a:visited, main .hello .conocemas a:hover, main .hello .conocemas a:active {
@@ -112,10 +112,10 @@ main .episodios {
       flex-direction: column;
       justify-content: center; }
     main .episodios .episodiosmain .spotify {
-      margin: auto;
+      margin: 1em auto auto auto;
       border: none;
       width: 95%;
-      height: 180px; }
+      height: 232px; }
 main .dedondevenimos {
   padding: 0;
   margin-bottom: 2em;
@@ -183,8 +183,7 @@ main .ultimasnovedades {
   padding: 0; }
   main .ultimasnovedades .background2 {
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    transform: skewY(175deg);
-    z-index: -1; }
+    transform: skewY(175deg); }
   main .ultimasnovedades .main h2 {
     margin: 1em 0 1em 0;
     transform: skewY(-175deg);
@@ -200,6 +199,7 @@ main .ultimasnovedades {
       display: block; }
   main .ultimasnovedades .escuchalosepisodios {
     transform: skewY(-175deg);
+    display: block;
     background-color: #00F3BB;
     padding: 1em;
     width: 80%;
@@ -209,7 +209,6 @@ main .ultimasnovedades {
     color: #060A24;
     font-size: 5vw;
     text-align: center;
-    display: block;
     margin: auto auto 4em auto; }
     main .ultimasnovedades .escuchalosepisodios:hover {
       background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%); }
