@@ -392,12 +392,12 @@ footer {
     align-items: center;
     height: 5rem; }
     footer h2 {
-      font-size: 1vw;
-      padding: 2em 2em 2em 6em; }
+      font-size: 1.2vw;
+      padding: 0 0 0 6em; }
     footer .rrss {
       align-items: center;
-      padding: 0 6em 0 4em; }
+      padding: 0 6em 0 0; }
       footer .rrss .rrsslogo {
-        padding: 1em; } }
+        padding: 1vw; } }
 
 /*# sourceMappingURL=style.css.map */
