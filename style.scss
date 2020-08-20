@@ -120,18 +120,15 @@ main{
         }
 
         .conocemas{
-            border: solid 1px;
             background-color: #00F3BB;
             padding: 1em;
             border: none;
-            width: 90%;
             font-family:'IBM Plex Mono', monospace;
             font-weight: 500;
             font-size: 5vw;
             color: #060A24;
             text-align: center;
             display: block;
-            margin: auto;
 
             &:hover{
                 background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
@@ -159,7 +156,7 @@ main{
 
         .episodiosmain{
             width: 100%;
-            margin-bottom: 40vw;
+            margin-bottom: 30vw;
             z-index: 1;
             transform:skewY(-175deg);
 
@@ -168,7 +165,7 @@ main{
                 font-family:'IBM Plex Sans', sans-serif;
                 font-size: 8vw;
                 font-weight: 400;
-                color: white;
+                color: white;   
                 padding: 0.5em 0em 0.5em 0.5em;
             
             }
@@ -183,7 +180,7 @@ main{
                 margin: auto;
                 border: none;
                 width: 95%;
-                height: 180px;       
+                height: 180px;
              }
             
         }
@@ -378,24 +375,17 @@ footer{
 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
 
 
     header{
-        display: flex;
-        flex-direction: row; 
-        justify-content: space-between;
         height: 4em;
 
         .logo{
-            display: block;
             padding: 1.5em;
             margin-left: 4em;
             
             img{
-                display: flex;
-                padding: 0;
-                margin: auto;
                 transform: scale(1.5);
             }
         }
@@ -412,7 +402,6 @@ footer{
                 margin: 0;
             
                 li{
-                    font-family:'IBM Plex Mono', monospace;
                     font-size: 1vw;
                     display: inline-block;
                     background-color: white;
@@ -421,9 +410,6 @@ footer{
 
                     a{
                         color: black;
-                        text-decoration: none;
-                        display: block;
-                        width: 100%;
                     }   
                     
                 }
@@ -453,26 +439,17 @@ footer{
     main{
         section{
             padding: 10em 10em 5em 10em;
-            display: flex;
-            flex-direction: column;
         }
     
         .hello{
     
             h2{
-                margin-bottom: 0.5em;
-                font-family:'IBM Plex Sans', sans-serif;
                 font-size: 3vw;
-                color: #060A24;
             
-    
                 .helloworld{
                     display: inline-block;
                 }
-                .world{
-                    text-decoration:line-through;
-                }
-
+               
                 .dot{
                     color: #0000FE;
                 }
@@ -492,22 +469,11 @@ footer{
             }
     
             .conocemas{
-                border: solid 1px;
-                background-color: #00F3BB;
                 padding: 0.5em;
-                border: none;
                 width: 20%;
-                font-family:'IBM Plex Mono', monospace;
                 font-size: 1.5vw;
-                color: #060A24;
-                text-align: center;
-                display: block;
                 margin: 0;
                 height: 50%;
-    
-                &:hover{
-                    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-                }
             }
     
         }
@@ -515,28 +481,16 @@ footer{
 
         .episodios{
             position: relative;
-            margin-top: 2em;
-            padding: 0;
         
-            .background{
-                width: 100%;
-                background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-                transform:skewY(175deg);
-                z-index: -1;
-            }
 
             .episodiosmain{
-                z-index: 1;
                 padding: 0;
                 margin-bottom: 10vw;
                 box-sizing: content-box;
-                transform:skewY(-175deg);
     
 
                 h2{
-                    font-family:'IBM Plex Sans', sans-serif;
                     font-size: 3vw;
-                    color: white;
                     padding: 2em 0 1em 4em;
                     margin: 0;
                 }
@@ -544,7 +498,7 @@ footer{
                 .iframes{
                     display: grid;
                     grid-template-columns: 50% 50%;
-                    grid-gap: 3vw;
+                    grid-gap: 2vw;
                     width: 80%;
                     margin:auto;
                 }
@@ -552,6 +506,7 @@ footer{
                 .spotify{
                     margin: auto;
                     border: none;
+                    width: 100%;
                     height: 232px;
                 }
                 
@@ -560,26 +515,21 @@ footer{
 
         .dedondevenimos{
             padding:0 10vw 0 10vw;
-            margin-bottom: 2em;
-            position: relative;
             display: flex;
             flex-flow: row;
             justify-content: space-between;
             align-items: center;
     
             .celphone{
-                box-sizing: border-box;
-                margin-top: -5em;
+                margin-top: -5vw;
                 padding-right: 6em;
     
                 img{
                     width: 29vw;
-                    margin: auto;
                 }
             }
     
             h2{
-                font-family:'IBM Plex Sans', sans-serif;
                 font-size: 3vw;
                 padding-left: 0.5em;
                 align-self: center;
@@ -591,25 +541,18 @@ footer{
         
             p{
                 padding: 0.5em 3em 1em 1em;
-                font-family:'IBM Plex Mono', monospace;
                 font-size: 1.5vw;
-                color: #060A24;
-                text-align: left;
                 align-self: center;
             }
     
         }
 
         .invitadasestelares{
-            padding: 0;
-            margin-bottom: 2em;
-            
-    
-            h2{
-                font-family:'IBM Plex Sans', sans-serif;
+      
+        
+            h2{       
                 font-size: 3vw;
                 padding-left: 4em;
-                margin-bottom: 0.5em;
     
                 .invitados{
                     display: inline-block;
@@ -624,23 +567,16 @@ footer{
             }
 
             img{
-                display: flex;
-                padding: 0;
-                margin: 0;
                 width: 100%;
         
             }
         }
 
         .algunosdenuestrostemas{
-            padding: 0;
-            margin-bottom: 0em;
     
             h2{
-                font-family:'IBM Plex Sans', sans-serif;
                 font-size: 3vw;
                 padding-left: 4em;
-                margin-bottom: 0.5em;
             }   
 
             .nuestrostemas{
@@ -657,42 +593,22 @@ footer{
             .icon{
                 margin: 0;
                 padding: 0;
-    
-                img{
-                    display: flex;
-                    padding: 0;
-                    margin: auto;   
-                 }
-                
-                h3{
-                    margin-top: 1em;
-                    font-family:'IBM Plex Sans', sans-serif;
-                    text-align: center;
-                }
              }
         }
 
         .ultimasnovedades{
-            position: relative;
             margin-top: 0em;
-            padding:0;
            
             .background2{
                 position: relative;
-                width: 100%;
                 height: 35vw;
                 background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
                 transform:skewY(0deg);
                 clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
-                z-index: -1;
             }
     
             .main h2{
-                position: absolute;
-                font-family:'IBM Plex Sans', sans-serif;
-                color: white;
                 font-size: 3vw;
-                text-align: center;
                 left: 28%;
                 top: 40%;
     
@@ -707,57 +623,35 @@ footer{
             }
     
             .escuchalosepisodios{
-                border: solid 1px;
-                position: absolute;
-                background-color: #00F3BB;
                 padding: 0.5em;
                 width: 25%;
-                border: none;
-                font-family:'IBM Plex Mono', monospace;
-                color: #060A24;
                 font-size: 1.5vw;
                 top: 60%;
                 left: 37%;
-    
-                &:hover{
-                    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-                }
             }
         }
     }
 
     footer{
-        position: absolute;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         margin-top: -2em;
-        width: 100%;
         height: 5rem;
-        background-color: white;
-    
+
         h2{
-            font-family:'IBM Plex Mono', monospace;
             font-size: 1vw;
             padding: 2em 2em 2em 6em;
         }
     
         .rrss{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
             align-items: center;
             padding: 0 6em 0 4em;
 
             .rrsslogo{
                 padding: 1em;
             }  
-
-            a:link, a:visited, a:hover, a:active {
-                text-decoration: none;
-                color: black;
-              }
         }
     }    
 }
